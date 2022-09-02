@@ -1,0 +1,2 @@
+SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/T0JQQQQQQ/B0JQQQQQQ/XXXXXXXXXXXXXXXXXXXXXXXX'
+DEFAULT_SLACK_CHANNEL = 'your-slack-channel'
