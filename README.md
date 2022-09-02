@@ -22,6 +22,11 @@ cp alert ~/alert
 ```
 
 ## Usage
+Default message `OK!`:
+```
+~/alert
+```
+Custom message:
 ```
 ~/alert hello
 ```
