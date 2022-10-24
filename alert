@@ -1,8 +1,9 @@
 #! /usr/bin/python
 from knockknock import slack_sender
 import argparse
-from secrets import SLACK_WEBHOOK_URL, DEFAULT_SLACK_CHANNEL
 
+SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/T0JQQQQQQ/B0JQQQQQQ/XXXXXXXXXXXXXXXXXXXXXXXX'
+DEFAULT_SLACK_CHANNEL = 'your-slack-channel'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Alert slack')
