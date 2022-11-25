@@ -9,16 +9,25 @@ python -m pip install -r requirements.txt
 ```
 
 ## Setup
+1. Clone the repository
+```
+git clone https://github.com/justinsj/alert-git
+```
+2. Install the requirements
+```
+sudo pip install setuptools-rust
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+3. Set up your Slack webhook URL. To do this, check out [https://api.slack.com/messaging/webhooks](https://api.slack.com/messaging/webhooks).
 
-1. Change the SLACK_WEBHOOK_URL in `alert`. To get a slack webhook url, go to [https://api.slack.com/messaging/webhooks](https://api.slack.com/messaging/webhooks).
+4. Change the SLACK_WEBHOOK_URL and DEFAULT_SLACK_CHANNEL in `alert`.
 
-2. Change the DEFAULT_SLACK_CHANNEL in `alert`.
-
-3. Ensure that the alert code is executable
+5. Ensure that the alert code is executable
 ```
 chmod +x alert
 ```
-4. Copy the file to an easily accessible location like `~/alert`.
+6. Copy the file to an easily accessible location like `~/alert`.
 ```
 cp alert ~/alert
 ```
