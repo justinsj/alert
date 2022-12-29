@@ -1,13 +1,6 @@
 # Alert
 Simple code to send an alert
 
-## Installation
-```
-sudo pip install setuptools-rust
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
 ## Setup
 1. Clone the repository
 ```
