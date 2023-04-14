@@ -4,6 +4,7 @@ Simple code to send an alert
 ## Setup
 1. Clone the repository
 ```
+cd ~
 git clone https://github.com/justinsj/alert-git
 ```
 2. Install the requirements
@@ -51,4 +52,10 @@ Default message `OK!`:
 Custom message:
 ```
 ~/alert hello
+```
+
+## Cleanup
+Once the main ~/alert file is there, you can delete this repository:
+```
+rm -rf ~/alert-git
 ```
