@@ -25,6 +25,24 @@ chmod +x alert
 cp alert ~/alert
 ```
 
+### Error handling
+If you get the error:
+```
+Traceback (most recent call last):
+  File "/home/ubuntu/alert", line 2, in <module>
+    from knockknock import slack_sender
+ModuleNotFoundError: No module named 'knockknock'
+```
+Try:
+```
+which python
+```
+Then replace the shebang `#!/usr/local/python` in the first line of the `~/alert` file with the output.
+For example:
+```
+#!/home/ubuntu/miniconda3/bin/python
+```
+
 ## Usage
 Default message `OK!`:
 ```
